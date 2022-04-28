@@ -15,7 +15,7 @@ public class Producer {
         factory.setUsername("admin");
         factory.setPassword("123");
 
-        //创建连接
+        //创建连接。
         Connection connection = factory.newConnection();
         //获取信道
         Channel channel = connection.createChannel();
